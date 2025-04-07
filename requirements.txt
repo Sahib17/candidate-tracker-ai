@@ -4,5 +4,4 @@ scikit-learn
 spacy
 pdfminer.six
 python-docx
-streamlit
-PyMuPDF
+pymupdf
