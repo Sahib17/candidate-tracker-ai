@@ -1,0 +1,31 @@
+
+Job Title: Junior Full-Stack Developer
+Location: Remote or Hybrid (Preferred: Texas-based candidates)
+Company: EduTech Labs
+
+About the Role
+We’re looking for a motivated Junior Full-Stack Developer to join our team in building web applications for data visualization, learning platforms, and internal analytics. This is an exciting opportunity to contribute to projects that impact the education and research sectors.
+
+Key Responsibilities
+- Develop RESTful APIs using Python (Flask or FastAPI)
+- Create responsive user interfaces using React and Material-UI
+- Work with PostgreSQL for data storage and management
+- Use Docker for containerization and deployment
+- Implement GitHub OAuth and integrate with third-party APIs
+- Contribute to open-source projects and collaborate via Git
+- Work with asynchronous task management (Celery/Redis)
+
+Required Skills
+- Proficient in Python, JavaScript, and SQL
+- Experience with Flask, FastAPI, React
+- Familiarity with Docker and Git version control
+- Understanding of CI/CD tools like TravisCI
+- Strong problem-solving and communication skills
+
+Nice to Have
+- Experience working with GitHub data or APIs
+- Background in education tech or academic research
+- Familiarity with cloud platforms like GCP
+
+Education
+- Bachelor’s degree in Computer Science or related field
