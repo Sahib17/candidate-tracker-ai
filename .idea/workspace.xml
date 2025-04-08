@@ -4,16 +4,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c940911-2cb2-4c12-9574-29c238fe4603" name="Changes" comment="" />
+    <list default="true" id="4c940911-2cb2-4c12-9574-29c238fe4603" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Ats-systemAi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Ats-systemAi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Routes/jobRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/Routes/jobRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/parsed_resumes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ranking_results.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/app_gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/results.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job_descriptions/jd_software_engineer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job_descriptions/junior_fullstack.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/job_descriptions/junior_fullstack1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/tfidf_vectorizer.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/utils/resume_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/utils/resume_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/project_report.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resumes/jakes-resume.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resumes/job-description.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resumes/resume1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resumes/resume1_converted.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resumes/resume2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resumes/resume3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resumes/resume4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/ranker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/resume_parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/text_cleaner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/upload.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ShreyasDutt&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sahib17/candidate-tracker-ai.git&quot;,
+    &quot;accountId&quot;: &quot;d95b9ce8-17d6-4ad8-bb64-a8fbaa175ca3&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2vQBe3AnOgqfICCzs8bZF0T2K2F" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -21,19 +66,23 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/shrey/OneDrive/Desktop/Ats-systemAi/python",
+    "last_opened_file_path": "C:/Users/shrey/OneDrive/Desktop/Ats-systemAi",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "ts.external.directory.path": "C:\\Users\\shrey\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\shrey\OneDrive\Desktop\Ats-systemAi" />
       <recent name="C:\Users\shrey\OneDrive\Desktop\Ats-systemAi\python" />
     </key>
   </component>
@@ -52,7 +101,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744067514888</updated>
-      <workItem from="1744067516826" duration="21414000" />
+      <workItem from="1744067516826" duration="21918000" />
+      <workItem from="1744144229365" duration="782000" />
+      <workItem from="1744145070811" duration="3960000" />
     </task>
     <servers />
   </component>
@@ -65,8 +116,11 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/Controllers/userController.js</url>
           <line>4</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/utils/resume_parser.py</url>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
