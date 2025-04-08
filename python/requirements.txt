@@ -1,0 +1,7 @@
+pandas
+numpy
+scikit-learn
+spacy
+pdfminer.six
+python-docx
+pymupdf
