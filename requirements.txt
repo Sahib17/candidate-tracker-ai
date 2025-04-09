@@ -1,7 +1,8 @@
-pandas
+pandas==2.2.3
+fitz==0.0.1.dev2
 numpy
-scikit-learn
+scikit_learn==1.6.1
 spacy
 pdfminer.six
-python-docx
+python_docx==1.1.2
 pymupdf
