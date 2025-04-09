@@ -121,5 +121,4 @@ candidate-tracker-ai/
 
 For testing purposes, you can use the sample resumes and job descriptions provided in the `uploads/` directory.
 
----
 
