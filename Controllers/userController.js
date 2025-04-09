@@ -85,7 +85,7 @@ export const login = async (req, res) => {
         const isMatch = await bcrypt.compare(password, user.password);
         if (!isMatch) {
             return res.render("login", {
-                toastMessage: "Incorrect password",
+                toastMessage: "Invalid Credentials",
                 toastType: "error"
             });
         }

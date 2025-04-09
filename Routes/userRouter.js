@@ -5,7 +5,7 @@ import isLoggedIn from "../utils/isLoggedIn.js";
 
 userRouter.post("/signup", signup);
 userRouter.post("/login", login);
-userRouter.get("/logout", isLoggedIn,logout);
+userRouter.post("/logout", isLoggedIn,logout);
 
 
 export default userRouter;

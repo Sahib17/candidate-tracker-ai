@@ -1,6 +1,6 @@
 import os
-import fitz  # PyMuPDF
-import docx  # ✅ CORRECT IMPORT
+import fitz
+import docx
 import re
 
 def extract_text_from_pdf(file_path):

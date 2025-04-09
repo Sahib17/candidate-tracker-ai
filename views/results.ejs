@@ -72,13 +72,12 @@
         </a>
     </header>
 
-    <!-- Results Section -->
     <section class="bg-dark-blue/50 p-8 rounded-2xl border border-purple-900/30 shadow-xl backdrop-blur-sm max-w-5xl mx-auto">
         <h2 class="text-2xl sm:text-3xl font-bold mb-6 text-center">Analysis Results</h2>
 
         <% if (Array.isArray(results)) { %>
-            <div class="overflow-x-auto rounded-lg">
-                <table class="min-w-full divide-y divide-purple-800">
+            <div class="overflow-x-auto rounded-lg shadow-lg">
+                <table class="min-w-full divide-y divide-purple-800 bg-slate-950 border border-purple-800/40">
                     <thead>
                     <tr class="bg-slate-900 text-left text-sm font-semibold text-gray-300 uppercase tracking-wider">
                         <th class="px-6 py-3">#</th>
@@ -87,11 +86,11 @@
                         <th class="px-6 py-3">Matched Skills</th>
                     </tr>
                     </thead>
-                    <tbody class="divide-y divide-purple-800">
+                    <tbody class="divide-y divide-purple-800 text-sm text-gray-200">
                     <% results.forEach((r, index) => { %>
-                        <tr class="hover:bg-slate-800 transition">
+                        <tr class="hover:bg-slate-800 transition duration-300 ease-in-out">
                             <td class="px-6 py-4"><%= index + 1 %></td>
-                            <td class="px-6 py-4"><%= r.filename %></td>
+                            <td class="px-6 py-4 font-medium"><%= r.filename %></td>
                             <td class="px-6 py-4"><%= r.score %>%</td>
                             <td class="px-6 py-4">
                                 <% if (r.matched_skills.length > 0) { %>
@@ -105,8 +104,15 @@
                     </tbody>
                 </table>
             </div>
+
+            <div class="flex justify-center mt-8">
+                <a href="/ats/download-csv"
+                   class="bg-blue-button hover:bg-blue-600 text-white font-semibold px-6 py-3 rounded-full shadow-md hover:shadow-blue-400/30 transition duration-300">
+                    Download CSV
+                </a>
+            </div>
         <% } else { %>
-            <div class="text-center text-red-500 font-medium">
+            <div class="text-center text-red-500 font-medium mt-4">
                 <p>⚠️ <%= results.error || "Unknown error occurred during processing." %></p>
             </div>
         <% } %>

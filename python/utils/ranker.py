@@ -22,7 +22,6 @@ def rank_resumes(resumes, job_description):
     docs = resumes + [job_description]
     tfidf_matrix = vectorizer.fit_transform(docs)
 
-    # last item is job description
     scores = cosine_similarity(tfidf_matrix[:-1], tfidf_matrix[-1:])
     scores = scores.flatten()
 

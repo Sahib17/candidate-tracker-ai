@@ -11,10 +11,9 @@ function redirectLoggedIn(req, res, next) {
             return res.redirect('/main');
         }
     } catch (err) {
-        console.log("⚠️ Invalid token:", err.message);
+        console.log("Invalid token:", err.message);
     }
 
-    console.log("🟢 No valid token, continuing to next()");
     next();
 }
 

@@ -15,7 +15,6 @@ const storage = multer.diskStorage({
         const originalName = file.originalname;
         const filePath = path.join('uploads', originalName);
 
-        // Check if file with the same name already exists
         if (fs.existsSync(filePath)) {
             const name = path.parse(originalName).name;
             const ext = path.extname(originalName);
@@ -40,6 +39,6 @@ export const upload = multer({
     storage,
     fileFilter,
     limits: {
-        files: 10 // Limit to 10 resumes max
+        files: 10
     }
 });
