@@ -80,6 +80,10 @@ candidate-tracker-ai/
    ```env
    MONGO_URI=your_mongodb_connection_string
    ```
+   ```env
+   JWT_SECRET=your_Secret_Key
+   ```
+
 
 5. **Start the Application**
 
