@@ -1,16 +1,16 @@
 
-# 📊 HireIQ – AI-Powered Candidate Tracking System
+# 📊 HireIQ – An AI-Powered Candidate Tracking System
 
-HireIQ is an intelligent Applicant Tracking System (ATS) that streamlines the recruitment process by leveraging AI to analyze resumes against job descriptions. It provides a user-friendly interface for uploading job descriptions and resumes, processes them using a Python-based AI script, and presents ranked candidates based on relevance.
+HireIQ is an intelligent Applicant Tracking System (ATS) that streamlines recruitment by leveraging AI to analyze resumes against job descriptions. It provides a user-friendly interface for uploading job descriptions and resumes, processes them using a Python-based AI script, and presents ranked candidates based on relevance.
 
 ---
 
 ## 🚀 Features
 
 - **AI-Driven Resume Analysis**: Utilizes a Python script to evaluate and rank resumes based on their similarity to the provided job description.
-- **Bulk Resume Upload**: Supports uploading multiple resumes simultaneously for efficient processing.
+- **Bulk Resume Upload**: Supports uploading up to 10 resumes for efficient and fast processing.
 - **Dynamic Results Display**: Presents analysis results in an interactive and visually appealing format.
-- **CSV Export**: Allows downloading of analysis results in CSV format for record-keeping or further analysis.
+- **CSV Export**: Allows downloading analysis results in CSV format for record-keeping or further analysis.
 - **Modern UI**: Built with Tailwind CSS to ensure a responsive and clean user interface.
 
 ---
@@ -92,7 +92,7 @@ candidate-tracker-ai/
    Open your browser and navigate to:
 
    ```
-   http://localhost:3000
+   http://localhost:8080
    ```
 
 ---
@@ -119,43 +119,3 @@ For testing purposes, you can use the sample resumes and job descriptions provid
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. **Fork the Repository**
-2. **Create a New Branch**
-
-   ```bash
-   git checkout -b feature/YourFeatureName
-   ```
-
-3. **Commit Your Changes**
-
-   ```bash
-   git commit -m "Add Your Feature"
-   ```
-
-4. **Push to Your Fork**
-
-   ```bash
-   git push origin feature/YourFeatureName
-   ```
-
-5. **Create a Pull Request**
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 📬 Contact
-
-For any inquiries or feedback, please contact:
-
-- **Shreyas**: [shreyas@example.com](mailto:shreyas@example.com)
-- **Sahib**: [sahib@example.com](mailto:sahib@example.com)
-- **Manpreet**: [manpreet@example.com](mailto:manpreet@example.com)
