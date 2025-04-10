@@ -50,6 +50,28 @@ candidate-tracker-ai/
 
 ---
 
+## Screenshots
+
+**Home Page**
+![Home Page](./images/Home_Page.png)
+
+**Login Screen**
+![Login Screen](./images/Login.png)
+
+**Signup Screen**
+![Signup Screen](./images/Signup.png)
+
+**Upload File**
+![Uploading Files](./images/Uploading_Files.png)
+
+**Resume Analysis**
+![Resume Analysis](./images/Resume_Analysis.png)
+
+**CSV File**
+![CSV File](./images/Resume_CSV.png)
+
+---
+
 ## ⚙️ Installation & Setup
 
 1. **Clone the Repository**

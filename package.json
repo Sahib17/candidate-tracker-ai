@@ -11,6 +11,7 @@
     "dev": "nodemon app.js"
   },
   "dependencies": {
+    "ats-systemai": "file:",
     "bcrypt": "^5.1.1",
     "cookie-parser": "^1.4.7",
     "dotenv": "^16.4.7",
