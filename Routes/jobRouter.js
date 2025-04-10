@@ -36,7 +36,10 @@ jobRouter.post('/upload', async (req, res, next) => {
     upload.array('resumes', 10)(req, res, function (err) {
         if (err) {
             console.error("Multer error:", err.message);
-            return res.status(400).send("Error uploading files.");
+            return res.render("main", {
+                toastMessage: "Something went wrong. Try again.",
+                toastType: "error"
+            });
         }
 
         try {
