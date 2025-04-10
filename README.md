@@ -119,6 +119,6 @@ candidate-tracker-ai/
 
 ## 🧪 Sample Data
 
-For testing purposes, you can use the sample resumes and job descriptions provided in the `SampleResumes/` directory.
+For testing purposes, you can use the sample resumes provided in the `SampleResumes/` directory.
 
 ---
