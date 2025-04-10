@@ -53,7 +53,7 @@ jobRouter.post('/upload', async (req, res, next) => {
             }
 
             //Running py script
-            const command = `"C:\\Python313\\python.exe" ./python/main.py "${jdPath}" "${uploadsPath}"`;
+            const command = `python ./python/main.py "${jdPath}" "${uploadsPath}"`;
 
             exec(command, (error, stdout, stderr) => {
                 if (error) {

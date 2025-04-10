@@ -1,4 +1,4 @@
-fitz==0.0.1.dev2
 pandas==2.2.3
 python_docx==1.1.2
 scikit_learn==1.6.1
+PyMuPDF
