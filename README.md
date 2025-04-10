@@ -115,4 +115,10 @@ candidate-tracker-ai/
 3. **Download Results**
    - Click on the 'Download CSV' button to export the analysis results.
 
+---
 
+## 🧪 Sample Data
+
+For testing purposes, you can use the sample resumes and job descriptions provided in the `SampleResumes/` directory.
+
+---
