@@ -125,5 +125,8 @@ For testing purposes, you can use the sample resumes provided in the `SampleResu
 
 ## Developed by:
 Manpreet Singh (300206509)
+
 Sahibjeet Singh (300206168)
+
 Shreyas Dutt (300206165)
+
