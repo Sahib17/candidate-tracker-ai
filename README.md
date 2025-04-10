@@ -29,23 +29,57 @@ HireIQ is an intelligent Applicant Tracking System (ATS) that streamlines recrui
 
 ```
 candidate-tracker-ai/
-├── Controllers/          # Route controllers
-├── Routes/               # Express route definitions
-├── db/                   # Database connection and models
-├── images/               # Static images
-├── models/               # Mongoose models
+├── Controllers/          
+│   └── userController.js        # User authentication controller
+├── Routes/               
+│   ├── jobRouter.js             # Resume processing routes
+│   ├── pageRouter.js            # Page navigation routes
+│   └── userRouter.js            # User auth routes
+├── db/                   
+│   └── ConnectDb.js             # Database connection setup
+├── images/               
+│   ├── favicon.ico              # Site favicon
+│   ├── Home_Page.png            # UI screenshots
+│   ├── Login.png
+│   ├── Resume_Analysis.png
+│   ├── Resume_CSV.png
+│   ├── Signup.png
+│   └── Uploading_Files.png
+├── models/               
+│   └── userModel.js             # User data model
 ├── node_modules/         # Node.js dependencies
-├── python/               # Python scripts for AI processing
-├── temp/                 # Temporary files
-├── uploads/              # Uploaded resumes
-├── utils/                # Utility functions
-├── views/                # EJS templates
+├── python/               
+│   ├── models/                  # Python ML models directory
+│   ├── utils/                   
+│   │   ├── __pycache__/         # Python cache files
+│   │   ├── ranker.py            # Resume ranking algorithm
+│   │   └── resume_parser.py     # PDF/DOCX parsing utilities
+│   ├── main.py                  # Main Python entry point
+│   └── README.md
+├── SampleResumes/        # Sample resume files directory
+├── temp/                 
+│   └── jd-1744250547834.txt     # Temporary job description file
+├── uploads/              
+│   └── Resume 2.pdf             # Uploaded resume file
+├── utils/                
+│   ├── __pycache__/             # Python cache files
+│   ├── csvUtils.js              # CSV export utilities
+│   ├── isLoggedIn.js            # Auth middleware
+│   ├── redirectifLoggedIn.js    # Auth redirect utility
+│   └── upload.js                # File upload configuration
+├── views/                
+│   ├── home.ejs                 # EJS view templates
+│   ├── login.ejs
+│   ├── main.ejs
+│   ├── results.ejs
+│   └── signup.ejs
 ├── .env                  # Environment variables
-├── .gitignore            # Git ignore file
-├── app.js                # Main application file
-├── package.json          # Node.js project metadata
+├── .gitignore            # Git ignore configuration
+├── app.js                # Main Node.js application file
+├── package-lock.json     # Node.js dependency lock file
+├── package.json          # Node.js project configuration
+├── README.md             # Project documentation
 ├── requirements.txt      # Python dependencies
-└── README.md             # Project documentation
 ```
 
 ---
